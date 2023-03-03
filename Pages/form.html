@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/tampilan.css">
+    <title>Form Pendaftaran</title>
+</head>
+<body>
+     <header>
+        <nav>
+            <li>
+                <a href="tabel.html">Nota Pembelian</a>
+            </li>
+            <li>
+                <a href="video.html">Playlist Video</a>
+            </li>
+            <li>
+                <a href="form.html">Form Pendaftaran</a>
+            </li>
+        </nav>
+     </header>
+     <section>
+        <h2>Form pendaftaran SIB 2023</h2>
+        <form>
+            <label for="nama">Nama Lengkap</label><br/>
+                <input type="text" name="nama" id="nama" placeholder="Masukkan Nama Lengkap"/>
+            <br/><br/>
+            
+            <label for="email">Email</label><br/>
+                <input type="email" name="email" id="email" placeholder="Masukkan Email" />
+            <br/><br/>
+            
+            <label for="no_hp">No. HP</label><br/>
+                <input type="number" name="no_hp" id="no_hp" placeholder="Masukkan No. HP" />
+            <br/><br/>
+
+            <label for="jeniskelamin">Jenis Kelamin</label><br/>
+                <input type="radio" name="jeniskelamin" value="Laki - Laki"><label>Laki - Laki</label><br>
+                <input type="radio" name="jenis_kelamin" value="Perempuan"><label>Perempuan</label>
+            <br/><br/>
+
+            <label for="jurusan">Jurusan</label><br/>
+                <select name="jurusan">
+                        <option value="TI">Teknik Informatika</option>
+                        <option value="SI">Sistem Informasi</option>
+                        <option value="SD">Sains Data</option>
+                        <option value="BD">Bisnis Digital</option>
+                </select>
+            <br/><br/>
+
+            <label for="alamat">Alamat</label><br/>
+                <textarea rows="4" placeholder="Masukkan Alamat"></textarea>
+            <br/><br/>
+
+            <label for="foto">Foto</label><br/>
+                <input type="file" name="foto">
+            <br/><br/>
+
+            <input type="submit" name="daftar" value="Daftar">
+        </form>
+     </section>
+     <br>
+     <footer>
+         Risma Nurhaliza - 4859757
+     </footer>
+</body>
+</html>
